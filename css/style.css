@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr 2fr 1fr;
+    gap: 5px; /*marcar los bordes de los divs*/
+}
+.box{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box1{
+    grid-column: 1 / 6; /*desde la columna 1 a la columna 6*/
+}
+.formatoFilaTexto{
+    display: flex;
+    text-align: left;
+    align-items:flex-end;
+    color: white;
+    margin-inline: 4em;
+}
+.formatoFilaNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#celdaVacia{
+    width: 15em;
+}
+.formatoLink{
+    color: white;
+    text-decoration: none;
+}
+.formatoPelicula{
+    height: 27vh;
+    width: 12vw;
+}
