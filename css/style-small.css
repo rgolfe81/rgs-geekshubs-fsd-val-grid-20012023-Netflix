@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 100vh;
+    display: block;
+}
+.formatoFilaTexto{
+    color: white;
+    font-size: smaller;
+}
+.formatoPelicula{
+    height: 25vh; 
+    width: 35vw;
+}
+.formatoDivHidden{ 
+    /* visibility: hidden; */
+    display: none;
+    /* width: 0vw;
+    height: 0vh; */
+}
+
