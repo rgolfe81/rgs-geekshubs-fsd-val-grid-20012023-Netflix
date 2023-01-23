@@ -7,18 +7,20 @@ body{
     height: 100vh;
     display: block;
 }
-.formatoFilaTexto{
+h2{
+    text-align: center;
     color: white;
-    font-size: smaller;
+    width: 100vh;
 }
 .formatoPelicula{
     height: 25vh; 
     width: 35vw;
 }
 .formatoDivHidden{ 
-    /* visibility: hidden; */
     display: none;
-    /* width: 0vw;
-    height: 0vh; */
+}
+#logoCentradoSmall{
+    text-align: center;
+    width: 100vw;
 }
 
